@@ -4,7 +4,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
-
+///hero
 .hero-container__button {
   @extend %centered;
 
@@ -21,4 +21,31 @@
 
   border: 1px solid $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+///footer
+.mailing_button {
+  @extend %centered;
+
+  margin-left: 12px;
+  padding: 10px 29px;
+
+  border-color: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  @include transition(box-shadow);
+
+  &:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+  }
+  &::after {
+    display: block;
+    content: '';
+    margin-left: 10px;
+
+    background-image: url('../images/icon-send.svg');
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+  }
 }

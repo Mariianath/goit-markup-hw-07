@@ -478,7 +478,7 @@ address {
 
   color: var(--accent-text-color);
 }
-
+/*===adresses for footer===*/
 .adress {
   font-size: 14px;
   line-height: 1.7;
@@ -486,7 +486,7 @@ address {
   letter-spacing: 0.03em;
   margin-bottom: 9px;
 }
-/*===adresses for footer===*/
+
 .contact-ithem:not(:last-child) {
   margin-bottom: 9px;
 }

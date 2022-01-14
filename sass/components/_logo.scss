@@ -15,3 +15,11 @@
 .site-logo__name-accent {
   color: $accent-color;
 }
+
+///footer
+.footer__site-logo {
+  display: block;
+  margin-bottom: 20px;
+
+  color: $accent-text-color;
+}
