@@ -1,12 +1,7 @@
-.button {
-  background-color: $accent-color;
-  color: $accent-text-color;
-  border-radius: 4px;
-  cursor: pointer;
-}
 ///hero
 .hero-container__button {
   @extend %centered;
+  @extend %button;
 
   padding: 10px 32px;
   margin-top: 30px;
@@ -48,9 +43,11 @@
     width: 24px;
     height: 24px;
   }
+  @extend %button;
 }
 ///modal-form
 .modalform__button {
+  @extend %button;
   width: 200px;
   height: 50px;
 
@@ -69,6 +66,7 @@
 }
 ///portfolio
 .works-navigation__button {
+  @extend %button;
   color: #000000;
   border-color: transparent;
   background-color: #f5f4fa;

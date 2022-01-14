@@ -8,6 +8,13 @@
   justify-content: center;
   align-items: center;
 }
+%button {
+  background-color: $accent-color;
+  color: $accent-text-color;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .section-name {
   font-weight: 700;
   font-size: 36px;
